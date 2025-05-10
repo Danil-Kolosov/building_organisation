@@ -1,0 +1,22 @@
+﻿@page
+@model QueriesModel
+@{
+    ViewData["Title"] = "Запросы";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post" asp-page-handler="CallProcedure">
+    <select name="queryId" class="form-control">
+        <option value="1">1. Управления и руководители</option>
+        <option value="2">2. Специалисты участка</option>
+    </select>
+    <button type="submit" class="btn btn-primary">Выполнить</button>
+</form>
+
+@if (Model.Result != null)
+{
+        <div class="mt-4">
+        @Html.Raw(Model.Result)  <!-- Вывод таблицы -->
+        </div>
+}

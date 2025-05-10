@@ -1,0 +1,36 @@
+﻿namespace ConstructionOrganisation.Pages.Home
+{
+@model System.Data.DataTable
+@{
+    ViewData["Title"] = "Панель администратора";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            @foreach (System.Data.DataColumn column in Model.Columns)
+            {
+                    <th>@column.ColumnName</th>
+            }
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (System.Data.DataRow row in Model.Rows)
+        {
+                <tr>
+                @foreach (var item in row.ItemArray)
+                {
+                            <td>@item</td>
+                }
+                    <td>
+                        <a href="#" class="btn btn-sm btn-primary">Редактировать</a>
+                        <a href="#" class="btn btn-sm btn-danger">Удалить</a>
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>
+}
