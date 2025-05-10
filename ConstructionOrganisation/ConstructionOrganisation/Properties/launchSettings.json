@@ -1,19 +1,19 @@
 {
   "profiles": {
-    "MyApp (HTTP)": {
+    "ConstructionOrganisation (HTTP)": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "swagger", // или ваша стартовая страница
+      "launchUrl": "", // Пустая строка - откроет корень сайта
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": true,
       "applicationUrl": "http://localhost:5026"
     },
-    "MyApp (HTTPS)": {
+    "ConstructionOrganisation (HTTPS)": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "swagger", // или ваша стартовая страница
+      "launchUrl": "", // Пустая строка
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
@@ -26,14 +26,6 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
-    }
-  },
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:53880",
-      "sslPort": 44389
     }
   }
 }

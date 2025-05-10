@@ -4,30 +4,47 @@ using ConstructionOrganisation.Data;
 using ConstructionOrganisation.Service;
 using ConstructionOrganisation.Models;
 
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Конфигурация DbContext (используйте ОДИН контекст)
-builder.Services.AddDbContext<BuildingOrganisationContext>(options =>
-    options.UseSqlServer(
-        builder.Configuration.GetConnectionString("DefaultConnection"),
-        sqlOptions => sqlOptions.EnableRetryOnFailure()));
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Настройка Identity (единая конфигурация)
-builder.Services.AddDefaultIdentity<User>() // Используем вашу модель
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddIdentity<User, IdentityRole>() // Используем ваш User
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Account/Login";
+    options.AccessDeniedPath = "/Account/AccessDenied";
+});
 
 builder.Services.AddRazorPages();
-builder.Services.AddControllers();
-builder.Services.AddScoped<MySqlAuthService>();
-
+builder.Services.AddControllers();//
+//builder.Services.AddScoped<MySqlAuthService>();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<SignInManager<User>>();
+builder.Services.AddScoped<UserManager<User>>();
+//builder.Services.AddRazorPages();
+builder.Services.AddControllersWithViews();
 var app = builder.Build();
-
+app.UseAuthentication(); // Добавьте эту строку перед UseAuthorization
+app.UseAuthorization();
 // Применение миграций автоматически
 using (var scope = app.Services.CreateScope())
 {
-    var db = scope.ServiceProvider.GetRequiredService<BuildingOrganisationContext>();
-    db.Database.Migrate();
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    //db.Database.Migrate();
 }
+//dotnet ef migrations remove --force
+//dotnet ef migrations add IdentitySetup
+//dotnet ef database update
+
+//rmdir /s /q Migrations
 
 if (app.Environment.IsDevelopment())
 {
@@ -40,7 +57,7 @@ else
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
@@ -48,8 +65,8 @@ app.UseAuthorization();
 app.MapRazorPages();
 app.MapControllers();
 // Принудительный запуск на конкретных портах
-app.Urls.Add("http://localhost:5000");
-app.Urls.Add("https://localhost:5001");
+//app.Urls.Add("http://localhost:5000");
+//app.Urls.Add("https://localhost:5001");
 app.Run();
 
 

@@ -149,6 +149,7 @@ C:\Users\Данил\Desktop\ВУЗ\БД\приложение\building_organisati
 C:\Users\Данил\Desktop\ВУЗ\БД\приложение\building_organisation\ConstructionOrganisation\ConstructionOrganisation\obj\Debug\net8.0\ConstructionOrganisation.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Данил\Desktop\ВУЗ\БД\приложение\building_organisation\ConstructionOrganisation\ConstructionOrganisation\obj\Debug\net8.0\ConstructionOrganisation.RazorAssemblyInfo.cache
 C:\Users\Данил\Desktop\ВУЗ\БД\приложение\building_organisation\ConstructionOrganisation\ConstructionOrganisation\obj\Debug\net8.0\ConstructionOrganisation.RazorAssemblyInfo.cs
+C:\Users\Данил\Desktop\ВУЗ\БД\приложение\building_organisation\ConstructionOrganisation\ConstructionOrganisation\obj\Debug\net8.0\ConstructionOrganisation.sourcelink.json
 C:\Users\Данил\Desktop\ВУЗ\БД\приложение\building_organisation\ConstructionOrganisation\ConstructionOrganisation\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Данил\Desktop\ВУЗ\БД\приложение\building_organisation\ConstructionOrganisation\ConstructionOrganisation\obj\Debug\net8.0\scopedcss\bundle\ConstructionOrganisation.styles.css
 C:\Users\Данил\Desktop\ВУЗ\БД\приложение\building_organisation\ConstructionOrganisation\ConstructionOrganisation\obj\Debug\net8.0\scopedcss\projectbundle\ConstructionOrganisation.bundle.scp.css

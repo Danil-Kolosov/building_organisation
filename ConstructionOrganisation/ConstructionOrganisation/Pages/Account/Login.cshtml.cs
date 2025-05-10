@@ -1,18 +1,20 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
-using System;
+using System.Threading.Tasks;
+using ConstructionOrganisation.Models; // Добавьте using для вашего User
 
 namespace ConstructionOrganisation.Pages.Account
 {
     public class LoginModel : PageModel
     {
-        private readonly SignInManager<IdentityUser> _signInManager;
-        private readonly UserManager<IdentityUser> _userManager;
+        private readonly SignInManager<User> _signInManager; // Используем ваш User
+        private readonly UserManager<User> _userManager; // Используем ваш User
 
-        public LoginModel(SignInManager<IdentityUser> signInManager,
-                         UserManager<IdentityUser> userManager)
+        public LoginModel(
+            SignInManager<User> signInManager,
+            UserManager<User> userManager)
         {
             _signInManager = signInManager;
             _userManager = userManager;
@@ -25,16 +27,22 @@ namespace ConstructionOrganisation.Pages.Account
 
         public class InputModel
         {
-            [Required]
+            [Required(ErrorMessage = "Логин обязателен")]
             [Display(Name = "Логин")]
-            public string UserName { get; set; } // Используем UserName вместо Email
+            public string UserName { get; set; }
 
-            [Required]
+            [Required(ErrorMessage = "Пароль обязателен")]
             [DataType(DataType.Password)]
+            [Display(Name = "Пароль")]
             public string Password { get; set; }
 
             [Display(Name = "Запомнить меня")]
             public bool RememberMe { get; set; }
+        }
+
+        public void OnGet(string returnUrl = null)
+        {
+            ReturnUrl = returnUrl ?? Url.Content("~/");
         }
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
@@ -43,19 +51,15 @@ namespace ConstructionOrganisation.Pages.Account
 
             if (ModelState.IsValid)
             {
-                // Ищем пользователя по логину
-                var user = await _userManager.FindByNameAsync(Input.UserName);
+                var result = await _signInManager.PasswordSignInAsync(
+                    Input.UserName,
+                    Input.Password,
+                    Input.RememberMe,
+                    lockoutOnFailure: false);
 
-                if (user != null)
+                if (result.Succeeded)
                 {
-                    var result = await _signInManager.PasswordSignInAsync(
-                        user.UserName, // Используем UserName для входа
-                        Input.Password,
-                        Input.RememberMe,
-                        lockoutOnFailure: false);
-
-                    if (result.Succeeded)
-                        return LocalRedirect(returnUrl);
+                    return LocalRedirect(returnUrl);
                 }
 
                 ModelState.AddModelError(string.Empty, "Неверный логин или пароль");
@@ -64,7 +68,6 @@ namespace ConstructionOrganisation.Pages.Account
             return Page();
         }
     }
-
 }
 
 

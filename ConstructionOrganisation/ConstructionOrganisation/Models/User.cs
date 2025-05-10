@@ -1,6 +1,8 @@
-﻿namespace ConstructionOrganisation.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace ConstructionOrganisation.Models
 {
-    public class User
+    public class User : IdentityUser // Наследуемся от IdentityUser
     {
         public int Id { get; set; }
         public string Username { get; set; }
