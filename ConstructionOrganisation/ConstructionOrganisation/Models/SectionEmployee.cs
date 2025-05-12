@@ -3,11 +3,12 @@ using System.Collections.Generic;
 
 namespace ConstructionOrganisation.Models;
 
-public partial class SectionEmployee
+public class SectionEmployee
 {
-    public int SectionNameId { get; set; }
+    public int SectionNameId { get; set; }  // Часть составного ключа
+    public int EmployeeCode { get; set; }  // Часть составного ключа
 
-    public int EmployeeCode { get; set; }
-
-    public virtual Employee EmployeeCodeNavigation { get; set; } = null!;
+    // Навигационные свойства
+    public Section SectionName { get; set; }
+    public Employee EmployeeCodeNavigation { get; set; }
 }

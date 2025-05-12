@@ -3,7 +3,6 @@
     "ConstructionOrganisation (HTTP)": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "", // Пустая строка - откроет корень сайта
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
@@ -13,7 +12,6 @@
     "ConstructionOrganisation (HTTPS)": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "", // Пустая строка
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
@@ -26,6 +24,14 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:50509/",
+      "sslPort": 44389
     }
   }
 }

@@ -1,70 +1,47 @@
 ﻿using ConstructionOrganisation.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using MySqlConnector;
 
 namespace ConstructionOrganisation.Data;
 
-public partial class ApplicationDbContext : IdentityDbContext<User> // Используем ваш User
+public /*partial*/ class ApplicationDbContext : DbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
-    {              
-}
+    {
+    }
+
     public virtual DbSet<Brigade> Brigades { get; set; }
-
     public virtual DbSet<BrigadeEmployee> BrigadeEmployees { get; set; }
-
     public virtual DbSet<CharacteristicGr> CharacteristicGrs { get; set; }
-
     public virtual DbSet<CharacteristicOb> CharacteristicObs { get; set; }
-
     public virtual DbSet<Contract> Contracts { get; set; }
-
     public virtual DbSet<Employee> Employees { get; set; }
-
     public virtual DbSet<Estimate> Estimates { get; set; }
-
     public virtual DbSet<Group> Groups { get; set; }
-
     public virtual DbSet<GroupCharacteristic> GroupCharacteristics { get; set; }
-
     public virtual DbSet<Machine> Machines { get; set; }
-
     public virtual DbSet<MachineType> MachineTypes { get; set; }
-
     public virtual DbSet<Management> Managements { get; set; }
-
     public virtual DbSet<Material> Materials { get; set; }
-
     public virtual DbSet<Models.Object> Objects { get; set; }
-
     public virtual DbSet<ObjectCharacteristic> ObjectCharacteristics { get; set; }
-
     public virtual DbSet<ObjectType> ObjectTypes { get; set; }
-
     public virtual DbSet<Section> Sections { get; set; }
-
     public virtual DbSet<SectionEmployee> SectionEmployees { get; set; }
-
     public virtual DbSet<Work> Works { get; set; }
-
     public virtual DbSet<WorkType> WorkTypes { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
         if (!options.IsConfigured)
         {
-            options.UseSqlServer(
-                "Server=(localdb)\\mssqllocaldb;Database=building_organisation;Trusted_Connection=True;"
+            options.UseMySql(
+                "Server=localhost;Database=building_organisation;User=root;Password=Ammon Dgerro;",
+                ServerVersion.AutoDetect("Server=localhost;Database=building_organisation;User=root;Password=Ammon Dgerro;")
             );
         }
     }
-    //protected override void OnConfiguring(DbContextOptionsBuilder options)
-    //    => options.UseMySql(
-    //        "Server=localhost;Database=building_organisation;User=root;Password=Ammon Dgerro;",
-    //        ServerVersion.AutoDetect("Server=localhost;Database=building_organisation;User=root;Password=Ammon Dgerro;")
-    //    );
-    //бло другое
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -372,17 +349,25 @@ public partial class ApplicationDbContext : IdentityDbContext<User> // Испо�
 
         modelBuilder.Entity<SectionEmployee>(entity =>
         {
-            entity
-                .HasNoKey()
-                .ToTable("section_employee");
+            // Указываем составной первичный ключ
+            entity.HasKey(e => new { e.SectionNameId, e.EmployeeCode })
+                  .HasName("PRIMARY");
 
+            entity.ToTable("section_employee");
+
+            // Уникальный индекс для EmployeeCode (если нужно)
             entity.HasIndex(e => e.EmployeeCode, "EmployeeCode_UNIQUE").IsUnique();
 
-            entity.Property(e => e.SectionNameId).HasColumnName("SectionNameID");
+            // Навигационные свойства
+            entity.HasOne(d => d.SectionName)
+                  .WithMany()
+                  .HasForeignKey(d => d.SectionNameId)
+                  .HasConstraintName("FK_SectionEmployee_Section");
 
-            entity.HasOne(d => d.EmployeeCodeNavigation).WithOne()
-                .HasForeignKey<SectionEmployee>(d => d.EmployeeCode)
-                .HasConstraintName("EmployeeCode_section_employee");
+            entity.HasOne(d => d.EmployeeCodeNavigation)
+                  .WithOne()
+                  .HasForeignKey<SectionEmployee>(d => d.EmployeeCode)
+                  .HasConstraintName("EmployeeCode_section_employee");
         });
 
         modelBuilder.Entity<Work>(entity =>
@@ -450,9 +435,12 @@ public partial class ApplicationDbContext : IdentityDbContext<User> // Испо�
             entity.Property(e => e.WorkTypeId).HasColumnName("WorkTypeID");
             entity.Property(e => e.WorkTypeName).HasMaxLength(45);
         });
-
-        OnModelCreatingPartial(modelBuilder);
     }
-
-    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+        //partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }
+
+
+    
+
+//    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+//}

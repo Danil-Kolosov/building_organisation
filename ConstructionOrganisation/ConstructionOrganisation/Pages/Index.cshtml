@@ -1,11 +1,14 @@
 ﻿@page
-@model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Главная";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <p>Тут можно всякую фигнб писать</p>
+<div class="container mt-5">
+    <h1>Добро пожаловать, @HttpContext.Session.GetString("Username")!</h1>
+
+    @if (HttpContext.Session.GetString("IsAdmin") == "True")
+    {
+            <a href="/AdminPanel" class="btn btn-danger mt-3">Панель администратора</a>
+    }
+   
 </div>

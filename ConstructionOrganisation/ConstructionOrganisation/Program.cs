@@ -1,74 +1,134 @@
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using ConstructionOrganisation.Data;
-using ConstructionOrganisation.Service;
-using ConstructionOrganisation.Models;
-
-
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Конфигурация DbContext (используйте ОДИН контекст)
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// Сервисы
+builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 
-// Настройка Identity (единая конфигурация)
-builder.Services.AddIdentity<User, IdentityRole>() // Используем ваш User
-    .AddEntityFrameworkStores<ApplicationDbContext>()
-    .AddDefaultTokenProviders();
-
-builder.Services.ConfigureApplicationCookie(options =>
+// Добавьте это перед всеми другими сервисами
+builder.Services.AddDistributedMemoryCache(); // Необходимо для работы сессий
+builder.Services.AddSession(options =>
 {
-    options.LoginPath = "/Account/Login";
-    options.AccessDeniedPath = "/Account/AccessDenied";
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
 });
 
-builder.Services.AddRazorPages();
-builder.Services.AddControllers();//
-//builder.Services.AddScoped<MySqlAuthService>();
-builder.Services.AddHttpContextAccessor();
-builder.Services.AddScoped<SignInManager<User>>();
-builder.Services.AddScoped<UserManager<User>>();
-//builder.Services.AddRazorPages();
-builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<MySqlAuthService>();
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
+    ));
+
 var app = builder.Build();
-app.UseAuthentication(); // Добавьте эту строку перед UseAuthorization
-app.UseAuthorization();
-// Применение миграций автоматически
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    //db.Database.Migrate();
-}
-//dotnet ef migrations remove --force
-//dotnet ef migrations add IdentitySetup
-//dotnet ef database update
 
-//rmdir /s /q Migrations
+// Middleware pipeline
+app.UseStaticFiles();
+app.UseRouting();
+app.UseSession(); // Должно быть после UseRouting()
+app.MapRazorPages();
+app.MapControllers();
 
-if (app.Environment.IsDevelopment())
+app.Run();
+
+
+
+
+//using ConstructionOrganisation.Data;
+//using Microsoft.EntityFrameworkCore;
+
+//var builder = WebApplication.CreateBuilder(args);
+
+//// Сервисы
+//builder.Services.AddControllersWithViews();
+//builder.Services.AddRazorPages();
+//builder.Services.AddSession();
+//builder.Services.AddScoped<MySqlAuthService>();
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//    options.UseMySql(
+//        builder.Configuration.GetConnectionString("DefaultConnection"),
+//        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
+//    ));
+
+//var app = builder.Build();
+//// Middleware
+//app.UseStaticFiles();
+//app.UseRouting();
+//app.UseSession();
+//app.MapRazorPages();
+//app.MapControllers();
+
+//app.Run();
+
+
+
+
+
+
+/*using ConstructionOrganisation.Data;
+//using ConstructionOrganisation.Data.Service;
+using Microsoft.EntityFrameworkCore;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// 1. Добавляем поддержку сессий (обязательно ДО добавления контроллеров)
+builder.Services.AddDistributedMemoryCache(); // Хранилище для сессий в памяти
+builder.Services.AddSession(options =>
 {
-    app.UseDeveloperExceptionPage();
-    app.UseMigrationsEndPoint();
-}
-else
+    options.IdleTimeout = TimeSpan.FromMinutes(20);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
+// 2. Подключение к MySQL
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
+// 3. Регистрация сервисов
+builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
+builder.Services.AddHttpContextAccessor(); // Для доступа к HttpContext
+builder.Services.AddScoped<MySqlAuthService>();// Ваш сервис аутентификации
+builder.Services.AddSession(options => {
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.IsEssential = true;
+}); 
+
+var app = builder.Build();
+
+// 4. Middleware pipeline
+if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
     app.UseHsts();
 }
 
-//app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
-app.UseAuthentication();
-app.UseAuthorization();
-app.MapRazorPages();
-app.MapControllers();
-// Принудительный запуск на конкретных портах
-//app.Urls.Add("http://localhost:5000");
-//app.Urls.Add("https://localhost:5001");
-app.Run();
 
+// 5. Подключение сессий (обязательно после UseRouting и до UseEndpoints)
+app.UseSession();
+
+app.UseAuthentication(); // Если используете Identity
+app.UseAuthorization();
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "reports",
+    pattern: "Reports/{action=Engineering}/{managementId?}",
+    defaults: new { controller = "Report" });
+
+app.MapRazorPages();
+
+app.Run();
+*/
 
 
 /*

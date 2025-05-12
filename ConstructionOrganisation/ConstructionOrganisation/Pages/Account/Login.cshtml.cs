@@ -1,70 +1,39 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using ConstructionOrganisation.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.ComponentModel.DataAnnotations;
-using System.Threading.Tasks;
-using ConstructionOrganisation.Models; // Добавьте using для вашего User
 
 namespace ConstructionOrganisation.Pages.Account
 {
     public class LoginModel : PageModel
     {
-        private readonly SignInManager<User> _signInManager; // Используем ваш User
-        private readonly UserManager<User> _userManager; // Используем ваш User
+        private readonly MySqlAuthService _authService;
 
-        public LoginModel(
-            SignInManager<User> signInManager,
-            UserManager<User> userManager)
+        public LoginModel(MySqlAuthService authService)
         {
-            _signInManager = signInManager;
-            _userManager = userManager;
+            _authService = authService;
         }
 
         [BindProperty]
-        public InputModel Input { get; set; }
+        public string Username { get; set; }
 
-        public string ReturnUrl { get; set; }
+        [BindProperty]
+        public string Password { get; set; }
 
-        public class InputModel
+        public string ErrorMessage { get; set; }
+
+        public void OnGet()
         {
-            [Required(ErrorMessage = "Логин обязателен")]
-            [Display(Name = "Логин")]
-            public string UserName { get; set; }
-
-            [Required(ErrorMessage = "Пароль обязателен")]
-            [DataType(DataType.Password)]
-            [Display(Name = "Пароль")]
-            public string Password { get; set; }
-
-            [Display(Name = "Запомнить меня")]
-            public bool RememberMe { get; set; }
         }
 
-        public void OnGet(string returnUrl = null)
+        public async Task<IActionResult> OnPostAsync()
         {
-            ReturnUrl = returnUrl ?? Url.Content("~/");
-        }
-
-        public async Task<IActionResult> OnPostAsync(string returnUrl = null)
-        {
-            returnUrl ??= Url.Content("~/");
-
-            if (ModelState.IsValid)
+            if (await _authService.ValidateUser(Username, Password))
             {
-                var result = await _signInManager.PasswordSignInAsync(
-                    Input.UserName,
-                    Input.Password,
-                    Input.RememberMe,
-                    lockoutOnFailure: false);
-
-                if (result.Succeeded)
-                {
-                    return LocalRedirect(returnUrl);
-                }
-
-                ModelState.AddModelError(string.Empty, "Неверный логин или пароль");
+                HttpContext.Session.SetString("Username", Username);
+                return RedirectToPage("/Index");
             }
 
+            ErrorMessage = "Неверный логин или пароль";
             return Page();
         }
     }
