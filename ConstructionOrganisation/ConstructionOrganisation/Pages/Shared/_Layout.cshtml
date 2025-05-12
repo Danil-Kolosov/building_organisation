@@ -57,11 +57,11 @@
                                         <span class="nav-link text-primary">@Context.Session.GetString("Username")</span>
                                     </li>
                                     <li class="nav-item">
-                                        <form id="logoutForm" asp-page="/Account/Logout" method="post" class="d-none">
-                                        </form>
-                                        <a class="nav-link" href="#" onclick="document.getElementById('logoutForm').submit()">
-                                            <i class="bi bi-box-arrow-right"></i> Выйти
-                                        </a>
+                                                    <form asp-controller="AuthController" asp-action="Logout" method="post">
+                                                    <button type="submit" class="nav-link btn btn-link">
+                                                        <i class="bi bi-box-arrow-right"></i> Выйти
+                                                    </button>
+                                                </form>                                        
                                     </li>
                         }
                         else

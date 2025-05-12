@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Http;
 
 namespace ConstructionOrganisation.Pages.Account
 {
@@ -7,33 +8,45 @@ namespace ConstructionOrganisation.Pages.Account
     {
         public IActionResult OnGet()
         {
-
-            Console.WriteLine("GET-запрос на выход получен!");
-            HttpContext.Session.Clear();
+            // Если нужен синхронный GET-выход (не рекомендуется)
+            ClearSession();
             return RedirectToPage("/Account/Login");
-            //HttpContext.Session.Clear();
-            //return RedirectToPage("/Account/Login"); // Редирект на страницу входа
         }
 
-        public IActionResult OnPost()
+        public async Task<IActionResult> OnPostAsync()
         {
-            if (HttpContext.Session.Keys.Contains("Username"))
-            {
-                Console.WriteLine($"Выход: {HttpContext.Session.GetString("Username")}");
-                HttpContext.Session.Remove("Username");
-            }
+            Console.WriteLine("OnPostAsync вызван!"); // Проверьте вывод в консоли сервера
+            await HttpContext.Session.LoadAsync();
+            HttpContext.Session.Clear();
+            await HttpContext.Session.CommitAsync();
 
-            // Явное удаление куки
+            Response.Cookies.Delete(".AspNetCore.Session");
+            HttpContext.Session.SetString("Username", "ОПАААААААААА");
+            return RedirectToPage("/Account/Login");
+        }
+
+        private void ClearSession()
+        {
+            HttpContext.Session.Clear();
             Response.Cookies.Delete(".AspNetCore.Session", new CookieOptions
             {
                 Path = "/",
                 Secure = true,
                 HttpOnly = true
             });
+        }
 
-            return RedirectToPage("/Account/Login");
-            //HttpContext.Session.Clear();
-            //return RedirectToPage("/Account/Login");
+        private async Task ClearSessionAsync()
+        {
+            HttpContext.Session.Clear();
+            await HttpContext.Session.CommitAsync(); // Явное сохранение изменений
+
+            Response.Cookies.Delete(".AspNetCore.Session", new CookieOptions
+            {
+                Path = "/",
+                Secure = true,
+                HttpOnly = true
+            });
         }
     }
 }

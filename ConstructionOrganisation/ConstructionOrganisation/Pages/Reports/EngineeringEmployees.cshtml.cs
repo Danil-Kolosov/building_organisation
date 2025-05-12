@@ -23,22 +23,13 @@ namespace ConstructionOrganisation.Pages.Reports
         {
             try
             {
-                ReportData = await _context.SectionEmployees
-    .Include(se => se.SectionName)
-        .ThenInclude(s => s.ManagementNumber) // Если нужно обращаться к Management
-    .Include(se => se.EmployeeCodeNavigation)
-        .ThenInclude(e => e.GroupName)
-    .Where(se => se.SectionName.ManagementNumber == ManagementId &&
-                se.EmployeeCodeNavigation.GroupName.GroupName.Contains("инженер"))
-    .Select(se => new EmployeeReport
-    {
-        SectionNameID = se.SectionNameId,
-        FirstName = se.EmployeeCodeNavigation.FirstName,
-        LastName = se.EmployeeCodeNavigation.LastName,
-        Position = se.EmployeeCodeNavigation.GroupName.GroupName
-    })
-    .AsNoTracking()
-    .ToListAsync();
+                // Используем SqlQueryRaw для вызова хранимой процедуры
+                ReportData = await _context.Database
+                    .SqlQueryRaw<EmployeeReport>(
+                        "CALL sp_get_engineering_employee_management({0})",
+                        ManagementId)
+                    .AsNoTracking()
+                    .ToListAsync();
             }
             catch (Exception ex)
             {

@@ -27,10 +27,19 @@ namespace ConstructionOrganisation.Controllers
             return View();
         }
 
-        public IActionResult Logout()
+        //public IActionResult Logout()
+        //{
+        //    HttpContext.Session.Clear();
+        //    return RedirectToAction("Login");
+        //}
+
+        [HttpPost]
+        public async Task<IActionResult> Logout()
         {
             HttpContext.Session.Clear();
-            return RedirectToAction("Login");
+            await HttpContext.Session.CommitAsync();
+            Response.Cookies.Delete(".AspNetCore.Session");
+            return RedirectToAction("Login", "Account");
         }
     }
 }

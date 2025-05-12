@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConstructionOrganisation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4309f6edb3e49d6455d63763a2c1502f922236c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+972c2d28d95d870baabe99a39ea5eb38b3d80ff3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConstructionOrganisation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConstructionOrganisation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
