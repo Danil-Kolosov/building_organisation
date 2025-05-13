@@ -28,6 +28,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Data/EditTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YVxFZGl0VGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Data/Tables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YVxUYWJsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,6 +56,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xFbmdpbmVlcmluZ0VtcGxveWVlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_engineering_employee_section.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfZW5naW5lZXJpbmdfZW1wbG95ZWVfc2VjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_managements_with_boss.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfbWFuYWdlbWVudHNfd2l0aF9ib3NzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_sections_with_boss.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfc2VjdGlvbnNfd2l0aF9ib3NzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,12 +80,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/User/Requests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxSZXF1ZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Services/AdminCheckerService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VydmljZXNcQWRtaW5DaGVja2VyU2VydmljZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Shared/_Layout.cshtml]

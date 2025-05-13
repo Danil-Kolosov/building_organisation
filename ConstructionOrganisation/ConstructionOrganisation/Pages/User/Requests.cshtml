@@ -1,0 +1,41 @@
+﻿@page
+@model ConstructionOrganisation.Pages.User.RequestsModel
+@{
+    ViewData["Title"] = "Рабочий стол";
+}
+
+<h2>Рабочий стол</h2>
+<h4>Вы вошли как: @HttpContext.Session.GetString("Username")</h4>
+
+<form method="post">
+    <div class="form-group mb-3">
+        <label asp-for="Password">Пароль для БД:</label>
+        <input type="password" asp-for="Password" class="form-control" required>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Query">SQL-запрос:</label>
+        <textarea asp-for="Query" class="form-control" rows="4" required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Выполнить</button>
+</form>
+
+@if (Model.Results != null)
+{
+        <!-- Таблица результатов (как в предыдущем примере) -->
+}
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+        <div class="alert alert-danger mt-3">
+        @if (Model.ErrorMessage.Contains("denied"))
+        {
+                    <strong>Ошибка доступа!</strong>
+                    <p>У вашего пользователя нет прав на это действие</p>
+        }
+        else
+        {
+            @Model.ErrorMessage
+        }
+        </div>
+}

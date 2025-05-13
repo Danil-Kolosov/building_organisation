@@ -1,0 +1,247 @@
+﻿@page
+@model ConstructionOrganisation.Pages.Data.EditTableModel
+@using System.Data
+@{
+    ViewData["Title"] = "Редактирование таблицы";
+
+    var columns = Model.TableData?.Columns?.Cast<DataColumn>()?.ToList() ?? new List<DataColumn>();
+    var rows = Model.TableData?.Rows?.Cast<DataRow>()?.ToList() ?? new List<DataRow>();
+    var primaryKeys = Model.PrimaryKeys ?? new List<string>();
+}
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+        <div class="alert alert-danger">@Model.ErrorMessage</div>
+}
+else if (Model.TableData == null)
+{
+        <div class="alert alert-warning">Данные таблицы не загружены</div>
+}
+else
+{
+        <div class="mb-3">
+        @if (Model.CanInsert)
+        {
+                    <button id="addRow" class="btn btn-success">Добавить строку</button>
+        }
+        @if (Model.CanUpdate || Model.CanInsert || Model.CanDelete)
+        {
+                    <button id="saveChanges" class="btn btn-primary" disabled>Сохранить изменения</button>
+        }
+        </div>
+
+        <table class="table table-editable">
+            <thead>
+                <tr>
+                @foreach (DataColumn col in columns)
+                {
+                            <th>@col.ColumnName</th>
+                }
+                @if (Model.CanDelete)
+                {
+                            <th>Действия</th>
+                }
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (DataRow row in rows)
+            {
+                        <tr data-key="@string.Join("|", primaryKeys.Select(pk => row[pk]))">
+                    @foreach (DataColumn col in columns)
+                    {
+                                    <td data-col="@col.ColumnName" data-type="@col.DataType.Name" 
+                                        data-original="@row[col]" 
+                        @(Model.CanUpdate ? "contenteditable=true" : "")>
+                            @if (col.DataType == typeof(DateTime))
+                            {
+                                @(((DateTime)row[col]).ToString("yyyy-MM-dd"))
+                            }
+                            else
+                            {
+                                @row[col]
+                            }
+                                    </td>
+                    }
+                    @if (Model.CanDelete)
+                    {
+                                    <td>
+                                        <button class="btn btn-danger btn-sm delete-row">Удалить</button>
+                                    </td>
+                    }
+                        </tr>
+            }
+            </tbody>
+        </table>
+}
+
+@section Scripts {
+        <script>
+            // Проверяем права перед инициализацией
+            const canInsert = @Json.Serialize(Model.CanInsert);
+            const canUpdate = @Json.Serialize(Model.CanUpdate);
+            const canDelete = @Json.Serialize(Model.CanDelete);
+            let hasChanges = false;
+
+            // Инициализация функционала только если есть данные
+            if (@Json.Serialize(Model.TableData != null)) {
+                // Отслеживание изменений
+                document.querySelectorAll('[contenteditable]').forEach(cell => {
+                    cell.addEventListener('input', () => {
+                        hasChanges = true;
+                        document.getElementById('saveChanges').disabled = !hasChanges;
+                    });
+                });
+
+                // Код для добавления строки
+                    // Код для добавления строки
+    if (canInsert) {
+        document.getElementById('addRow').addEventListener('click', function() {
+            const tbody = document.querySelector('tbody');
+            const cols = @Json.Serialize(columns.Select(c => c.ColumnName));
+            const colTypes = @Json.Serialize(columns.Select(c => c.DataType.Name));
+
+            const newRow = document.createElement('tr');
+            let html = '';
+
+            cols.forEach((col, i) => {
+                // Для новых строк устанавливаем data-original=""
+                html += `<td data-col="${col}" data-type="${colTypes[i]}" data-original="" contenteditable="true">`;
+                if (colTypes[i] === 'DateTime') {
+                    html += new Date().toISOString().split('T')[0];
+                }
+                html += '</td>';
+            });
+
+            if (canDelete) {
+                html += '<td><button class="btn btn-danger btn-sm delete-row">Удалить</button></td>';
+            }
+
+            newRow.innerHTML = html;
+            tbody.appendChild(newRow);
+
+            // Добавляем обработчики для новых ячеек
+            newRow.querySelectorAll('[contenteditable]').forEach(cell => {
+                cell.addEventListener('input', () => {
+                    document.getElementById('saveChanges').disabled = false;
+                });
+            });
+
+            document.getElementById('saveChanges').disabled = false;
+        });
+    }
+
+                // Код для удаления строки
+                if (canDelete) 
+                {
+                    document.addEventListener('click', function(e) {
+                        if (e.target.classList.contains('delete-row')) {
+                            const row = e.target.closest('tr');
+                            const rowKey = row.getAttribute('data-key');
+
+                            if (rowKey) {
+                                // Помечаем строку как удалённую (скрываем визуально)
+                                row.style.display = 'none';
+                                row.classList.add('deleted');
+
+                                // Добавляем в коллекцию удалений
+                                hasChanges = true;
+                                document.getElementById('saveChanges').disabled = false;
+                            }
+                        }
+                    });
+                }
+
+                // Код для сохранения изменений
+                                             document.getElementById('saveChanges').addEventListener('click', async function() {
+                const changes = {
+                    updates: [],
+                    inserts: [],
+                    deletes: []
+                };
+
+                const tableName = '@Html.Raw(Model.TableName)';
+                const primaryKeys = @Json.Serialize(Model.PrimaryKeys);
+
+                // Собираем все строки
+                const allRows = document.querySelectorAll('tbody tr');
+
+                allRows.forEach(row => {
+                    const rowKey = row.getAttribute('data-key');
+                    const isDeleted = row.classList.contains('deleted');
+                    const isNew = !rowKey && !isDeleted;
+
+                    if (isDeleted && rowKey) {
+                        changes.deletes.push({ key: rowKey.split('|') });
+                        return;
+                    }
+
+                    if (isNew) {
+                        const newRow = {};
+                        row.querySelectorAll('td[data-col]').forEach(cell => {
+                            const colName = cell.getAttribute('data-col');
+                            let value = cell.innerText.trim();
+                            newRow[colName] = value || null;
+                        });
+                        changes.inserts.push(newRow);
+                        return;
+                    }
+
+                    const updatedRow = { key: rowKey.split('|'), values: {} };
+                    let rowHasChanges = false;
+
+                    row.querySelectorAll('td[data-col]').forEach(cell => {
+                        const colName = cell.getAttribute('data-col');
+                        const originalValue = cell.getAttribute('data-original');
+                        const currentValue = cell.innerText.trim();
+
+                        if (currentValue !== originalValue) {
+                            updatedRow.values[colName] = currentValue || null;
+                            rowHasChanges = true;
+                        }
+                    });
+
+                    if (rowHasChanges) {
+                        changes.updates.push(updatedRow);
+                    }
+                });
+
+                console.log("Sending changes:", changes);
+
+                try {
+                    const saveButton = document.getElementById('saveChanges');
+                    saveButton.disabled = true;
+                    saveButton.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Сохранение...';
+
+                    const response = await fetch('?handler=Save', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                        },
+                        body: JSON.stringify({
+                            tableName: tableName,
+                            changes: changes,
+                            primaryKeys: primaryKeys
+                        })
+                    });
+
+                    const result = await response.json();
+                    if (!response.ok) {
+                        throw new Error(result.message || 'Ошибка сохранения');
+                    }
+
+                    alert('Изменения успешно сохранены!');
+                    location.reload();
+                } catch (error) {
+                    console.error("Save error:", error);
+                    alert('Ошибка сохранения: ' + error.message);
+                } finally {
+                    const saveButton = document.getElementById('saveChanges');
+                    saveButton.disabled = false;
+                    saveButton.textContent = 'Сохранить изменения';
+                }
+            });
+
+            }
+        </script>
+}

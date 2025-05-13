@@ -1,22 +1,37 @@
 using ConstructionOrganisation.Data;
+using ConstructionOrganisation.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Сервисы
-builder.Services.AddControllersWithViews();
+// Добавление сервисов
 builder.Services.AddRazorPages();
+builder.Services.AddControllersWithViews();
 
-// Добавьте это перед всеми другими сервисами
-builder.Services.AddDistributedMemoryCache(); // Необходимо для работы сессий
+// Настройка сессии
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
+    options.Cookie.SameSite = SameSiteMode.Lax; // Изменено на Lax для локальной разработки
 });
 
+// Настройка антифоргерийной защиты с учетом среды разработки
+builder.Services.AddAntiforgery(options =>
+{
+    options.HeaderName = "X-CSRF-TOKEN";
+    options.Cookie.SecurePolicy = builder.Environment.IsDevelopment()
+        ? CookieSecurePolicy.SameAsRequest
+        : CookieSecurePolicy.Always;
+});
+
+// Остальные сервисы...
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<AdminCheckerService>();
 builder.Services.AddScoped<MySqlAuthService>();
+
+// Настройка БД
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
@@ -26,13 +41,66 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 var app = builder.Build();
 
 // Middleware pipeline
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+    app.UseHsts(); // HTTP Strict Transport Security Protocol
+}
+
+app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
-app.UseSession(); // Должно быть после UseRouting()
+
+app.UseSession();
+app.UseAuthentication(); // Если используете
+app.UseAuthorization(); // Если используете
+
 app.MapRazorPages();
 app.MapControllers();
 
 app.Run();
+
+
+//ЭТОТ РАБОЧИЙ ПОЛНОСТЬЮ КРОМЕ КНОПКИ ВЫЙТИ
+//using ConstructionOrganisation.Data;
+//using ConstructionOrganisation.Services;
+//using Microsoft.EntityFrameworkCore;
+
+//var builder = WebApplication.CreateBuilder(args);
+
+//// Сервисы
+//builder.Services.AddControllersWithViews();
+//builder.Services.AddRazorPages();
+
+//builder.Services.AddHttpContextAccessor();
+//builder.Services.AddDistributedMemoryCache();
+//builder.Services.AddAntiforgery(); // Для работы AJAX-запросов
+//// Добавьте это перед всеми другими сервисами
+//builder.Services.AddDistributedMemoryCache(); // Необходимо для работы сессий
+//builder.Services.AddSession(options =>
+//{
+//    options.IdleTimeout = TimeSpan.FromMinutes(30);
+//    options.Cookie.HttpOnly = true;
+//    options.Cookie.IsEssential = true;
+//});
+//builder.Services.AddScoped<AdminCheckerService>();
+//builder.Services.AddScoped<MySqlAuthService>();
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//    options.UseMySql(
+//        builder.Configuration.GetConnectionString("DefaultConnection"),
+//        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
+//    ));
+
+//var app = builder.Build();
+
+//// Middleware pipeline
+//app.UseStaticFiles();
+//app.UseRouting();
+//app.UseSession(); // Должно быть после UseRouting()
+//app.MapRazorPages();
+//app.MapControllers();
+
+//app.Run();
 
 
 

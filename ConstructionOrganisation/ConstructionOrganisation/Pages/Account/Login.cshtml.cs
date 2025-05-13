@@ -19,22 +19,55 @@ namespace ConstructionOrganisation.Pages.Account
         [BindProperty]
         public string Password { get; set; }
 
+        [FromQuery] // Получаем параметр из URL
+        public bool Logout { get; set; }
+
         public string ErrorMessage { get; set; }
 
-        public void OnGet()
+
+        public IActionResult OnGet()
         {
+            // Если перешли по ссылке выхода
+            if (Logout)
+            {
+                HttpContext.Session.Clear();
+                Response.Cookies.Delete(".AspNetCore.Session");
+                return RedirectToPage("/Index");
+            }
+            // Если уже авторизованы - редирект на главную
+            if (!string.IsNullOrEmpty(HttpContext.Session.GetString("Username")))
+            {
+                return RedirectToPage("/Index");
+            }
+            return Page();
         }
 
         public async Task<IActionResult> OnPostAsync()
         {
+            if (!string.IsNullOrEmpty(HttpContext.Session.GetString("Username")))
+            {
+                // Дополнительная проверка на случай прямого POST-запроса
+                HttpContext.Session.Clear();
+                return RedirectToPage("/Index");
+            }
             if (await _authService.ValidateUser(Username, Password))
             {
                 HttpContext.Session.SetString("Username", Username);
-                return RedirectToPage("/Index");
-            }
+                HttpContext.Session.SetString("DbPassword", Password); // Сохраняем пароль
 
+                return RedirectToPage("/Reports/Index"); // Перенаправляем на страницу отчетов
+            }
             ErrorMessage = "Неверный логин или пароль";
             return Page();
+
+            //if (await _authService.ValidateUser(Username, Password))
+            //{
+            //    HttpContext.Session.SetString("Username", Username);
+            //    return RedirectToPage("/Index");
+            //}
+
+            //ErrorMessage = "Неверный логин или пароль";
+            //return Page();
         }
     }
 }

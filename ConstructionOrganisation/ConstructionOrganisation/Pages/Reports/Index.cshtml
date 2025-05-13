@@ -1,0 +1,23 @@
+﻿@page
+@model ConstructionOrganisation.Pages.Reports.IndexModel
+@{
+    ViewData["Title"] = "Отчеты";
+}
+
+<h2>Доступные отчеты</h2>
+
+<div class="list-group">
+    <a asp-page="./sp_get_managements_with_boss" class="list-group-item list-group-item-action">
+        1. Управления с руководителями
+    </a>
+    <a asp-page="./sp_get_sections_with_boss" class="list-group-item list-group-item-action">
+        2. Участки с руководителями
+    </a>
+    <a asp-page="./EngineeringEmployees" class="list-group-item list-group-item-action">
+        3. Инженерный состав управления
+    </a>
+    <a asp-page="./sp_get_engineering_employee_section" class="list-group-item list-group-item-action">
+        4. Инженерный состав участка
+    </a>
+    <!-- Добавьте остальные 12 отчетов -->
+</div>

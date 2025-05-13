@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Pages\Account\Logout.cshtml" />
+    <Content Remove="Pages\Account\LogoutФИГНЯТОЖЕ.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,11 +27,10 @@
 
   <ItemGroup>
     <Folder Include="images\" />
-    <Folder Include="Service\" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Pages\Account\Logout.cshtml" />
+    <None Include="Pages\Account\LogoutФИГНЯТОЖЕ.cshtml" />
   </ItemGroup>
 
 </Project>
