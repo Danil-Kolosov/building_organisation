@@ -1,0 +1,194 @@
+﻿@page
+@model ConstructionOrganisation.Pages.Reports.sp_brigade_on_work_type_with_date_and_objects
+@{
+    ViewData["Title"] = "Бригады по виду работ";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+
+    <form method="get" class="mb-4">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="workTypeName">Вид работ:</label>
+                    <input type="text" class="form-control" id="workTypeName" 
+                           name="workTypeName" value="@Model.WorkTypeName" required />
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="startDate">Дата начала:</label>
+                    <input type="date" class="form-control" id="startDate" 
+                           name="startDate" value="@Model.StartDate.ToString("yyyy-MM-dd")" required />
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="endDate">Дата окончания:</label>
+                    <input type="date" class="form-control" id="endDate" 
+                           name="endDate" value="@Model.EndDate.ToString("yyyy-MM-dd")" required />
+                </div>
+            </div>
+            <div class="col-md-3 align-self-end">
+                <button type="submit" class="btn btn-primary">Показать</button>
+            </div>
+        </div>
+    </form>
+
+    @if (Model.ReportData != null && Model.ReportData.Any())
+    {
+            <div class="card mb-4">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0">Сводка по виду работ "@Model.ReportData.First().WorkTypeName"</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p><strong>Период:</strong> @Model.StartDate.ToString("dd.MM.yyyy") - @Model.EndDate.ToString("dd.MM.yyyy")</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p><strong>Всего бригад:</strong> @Model.ReportData.Select(x => x.BrigadeID).Distinct().Count()</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p><strong>Всего объектов:</strong> @Model.ReportData.Select(x => x.ObjectNameID).Distinct().Count()</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Бригада</th>
+                            <th>Вид работ</th>
+                            <th>Объект</th>
+                            <th>ID объекта</th>
+                            <th>№ работы</th>
+                            <th>План. начало</th>
+                            <th>План. окончание</th>
+                            <th>Факт. начало</th>
+                            <th>Факт. окончание</th>
+                            <th>Длительность</th>
+                            <th>Статус</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var item in Model.ReportData)
+                    {
+                                <tr>
+                                    <td>@item.BrigadeName</td>
+                                    <td>@item.WorkTypeName</td>
+                                    <td>@item.ObjectName</td>
+                                    <td>@item.ObjectNameID</td>
+                                    <td>@item.WorkNumber</td>
+                                    <td>@item.PlannedStartDate.ToString("dd.MM.yyyy")</td>
+                                    <td>@item.PlannedEndDate.ToString("dd.MM.yyyy")</td>
+                                    <td>@(item.RealStartDate.HasValue ? item.RealStartDate.Value.ToString("dd.MM.yyyy") : "-")</td>
+                                    <td>@(item.RealEndDate.HasValue ? item.RealEndDate.Value.ToString("dd.MM.yyyy") : "-")</td>
+                                    <td>@item.Duration дней</td>
+                                    <td class="@GetStatusClass(item)">
+                                @GetStatusText(item)
+                                    </td>
+                                </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Распределение по бригадам</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group">
+                            @foreach (var brigade in Model.ReportData
+                               .GroupBy(x => new { x.BrigadeID, x.BrigadeName })
+                               .Select(g => new
+                               {
+                                   Name = g.Key.BrigadeName,
+                                   Count = g.Count(),
+                                   AvgDuration = g.Average(x => x.Duration)
+                               })
+                               .OrderByDescending(x => x.Count))
+                            {
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    @brigade.Name
+                                            <span class="badge badge-primary badge-pill">@brigade.Count работ</span>
+                                            <small class="text-muted">@brigade.AvgDuration.ToString("N1") дн.</small>
+                                        </li>
+                            }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header bg-secondary text-white">
+                            <h5 class="mb-0">Статистика по объектам</h5>
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>Объект</th>
+                                        <th>Бригад</th>
+                                        <th>Средняя длительность</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                @foreach (var obj in Model.ReportData
+                                   .GroupBy(x => new { x.ObjectNameID, x.ObjectName })
+                                   .Select(g => new
+                                   {
+                                       Name = g.Key.ObjectName,
+                                       Brigades = g.Select(x => x.BrigadeID).Distinct().Count(),
+                                       AvgDuration = g.Average(x => x.Duration)
+                                   })
+                                   .OrderByDescending(x => x.Brigades))
+                                {
+                                            <tr>
+                                                <td>@obj.Name</td>
+                                                <td>@obj.Brigades</td>
+                                                <td>@obj.AvgDuration.ToString("N1") дней</td>
+                                            </tr>
+                                }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    }
+    else if (Model.ReportData != null)
+    {
+            <div class="alert alert-warning">Для указанного вида работ в выбранный период данные не найдены</div>
+    }
+</div>
+
+@functions {
+    string GetStatusClass(ConstructionOrganisation.Pages.Reports.sp_brigade_on_work_type_with_date_and_objects.BrigadeWorkReport item)
+    {
+        if (!item.RealStartDate.HasValue)
+            return "table-warning";
+        if (!item.RealEndDate.HasValue)
+            return "table-info";
+        if (item.RealEndDate > item.PlannedEndDate)
+            return "table-danger";
+        return "table-success";
+    }
+
+    string GetStatusText(ConstructionOrganisation.Pages.Reports.sp_brigade_on_work_type_with_date_and_objects.BrigadeWorkReport item)
+    {
+        if (!item.RealStartDate.HasValue)
+            return "Не начата";
+        if (!item.RealEndDate.HasValue)
+            return "В процессе";
+        if (item.RealEndDate > item.PlannedEndDate)
+            return "Завершена с опозданием";
+        return "Завершена вовремя";
+    }
+}

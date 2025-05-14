@@ -1,0 +1,106 @@
+﻿@page
+@model ConstructionOrganisation.Pages.Reports.sp_material_late_management
+@{
+    ViewData["Title"] = "Превышение сметы по материалам в управлении";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+
+    <form method="get" class="mb-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="managementNum">Номер управления:</label>
+                    <input type="number" class="form-control" id="managementNum" 
+                           name="managementNum" value="@Model.ManagementNum" />
+                </div>
+            </div>
+            <div class="col-md-4 align-self-end">
+                <button type="submit" class="btn btn-primary">Анализировать</button>
+            </div>
+        </div>
+    </form>
+
+    @if (Model.ReportData != null && Model.ReportData.Any())
+    {
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID материала</th>
+                            <th>Материал</th>
+                            <th>Участок</th>
+                            <th>План</th>
+                            <th>Факт</th>
+                            <th>Превышение</th>
+                            <th>Кол-во случаев</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var item in Model.ReportData)
+                    {
+                                <tr class="@(item.Excess > 0 ? "table-danger" : "")">
+                                    <td>@item.MaterialID</td>
+                                    <td>@item.MaterialName</td>
+                                    <td>@item.SectionName</td>
+                                    <td>@item.PlannedQuantity.ToString("N2")</td>
+                                    <td>@item.RealQuantity.ToString("N2")</td>
+                                    <td class="font-weight-bold">@item.Excess.ToString("N2")</td>
+                                    <td>@item.Count</td>
+                                </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="card border-danger">
+                        <div class="card-header bg-danger text-white">
+                            <h5 class="mb-0">Сводка по управлению</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h6>Топ-3 материала по перерасходу:</h6>
+                                    <ol>
+                                    @foreach (var item in Model.ReportData
+                                       .OrderByDescending(x => x.Excess)
+                                       .Take(3))
+                                    {
+                                                <li>@item.MaterialName (@item.Excess.ToString("N2"))</li>
+                                    }
+                                    </ol>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6>Топ-3 участка по перерасходу:</h6>
+                                    <ol>
+                                    @foreach (var item in Model.ReportData
+                                       .GroupBy(x => x.SectionName)
+                                       .Select(g => new
+                                       {
+                                           Name = g.Key,
+                                           Excess = g.Sum(x => x.Excess)
+                                       })
+                                       .OrderByDescending(x => x.Excess)
+                                       .Take(3))
+                                    {
+                                                <li>@item.Name (@item.Excess.ToString("N2"))</li>
+                                    }
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="alert alert-warning mt-2">
+                                <strong>Общий перерасход:</strong> @Model.ReportData.Sum(x => x.Excess).ToString("N2")
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    }
+    else if (Model.ReportData != null)
+    {
+            <div class="alert alert-success">Превышений сметы по материалам в управлении не обнаружено</div>
+    }
+</div>

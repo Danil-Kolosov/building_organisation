@@ -1,0 +1,151 @@
+﻿@page
+@model ConstructionOrganisation.Pages.Reports.sp_material_late_all
+@{
+    ViewData["Title"] = "Анализ перерасхода материалов по организации";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+
+    @if (Model.ReportData != null && Model.ReportData.Any())
+    {
+            <div class="mb-3">
+                <div class="alert alert-danger">
+                    <strong>Общий перерасход по организации:</strong> 
+                @Model.ReportData.Sum(x => x.Difference).ToString("N2") единиц материалов
+                </div>
+            </div>
+
+            <ul class="nav nav-tabs" id="materialTabs" role="tablist">
+            @foreach (var management in Model.ReportData.Select(x => x.ManagementNumber).Distinct().OrderBy(x => x))
+            {
+                        <li class="nav-item">
+                            <a class="nav-link @(management == Model.ReportData.First().ManagementNumber ? "active" : "")" 
+                               id="management-@management-tab" data-toggle="tab" href="#management-@management" role="tab">
+                                Управление @management
+                            </a>
+                        </li>
+            }
+            </ul>
+
+            <div class="tab-content" id="materialTabsContent">
+            @foreach (var management in Model.ReportData.Select(x => x.ManagementNumber).Distinct().OrderBy(x => x))
+            {
+                        <div class="tab-pane fade @(management == Model.ReportData.First().ManagementNumber ? "show active" : "")" 
+                             id="management-@management" role="tabpanel">
+                            <div class="table-responsive mt-3">
+                                <table class="table table-sm table-striped">
+                                    <thead class="thead-light">
+                                        <tr>
+                                            <th>Материал</th>
+                                            <th>Участок</th>
+                                            <th>План</th>
+                                            <th>Факт</th>
+                                            <th>+/-</th>
+                                            <th>Случаев</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                @foreach (var item in Model.ReportData.Where(x => x.ManagementNumber == management))
+                                {
+                                                <tr class="@(item.Difference > 0 ? "table-danger" : "")">
+                                                    <td>@item.MaterialName</td>
+                                                    <td>@item.SectionName</td>
+                                                    <td>@item.PlannedQuantity.ToString("N2")</td>
+                                                    <td>@item.RealQuantity.ToString("N2")</td>
+                                                    <td class="font-weight-bold">@item.Difference.ToString("N2")</td>
+                                                    <td>@item.Count</td>
+                                                </tr>
+                                }
+                                    </tbody>
+                                    <tfoot class="font-weight-bold">
+                                        <tr class="bg-light">
+                                            <td colspan="2">Итого по управлению @management:</td>
+                                            <td>@Model.ReportData.Where(x => x.ManagementNumber == management).Sum(x => x.PlannedQuantity).ToString("N2")</td>
+                                            <td>@Model.ReportData.Where(x => x.ManagementNumber == management).Sum(x => x.RealQuantity).ToString("N2")</td>
+                                            <td class="text-danger">@Model.ReportData.Where(x => x.ManagementNumber == management).Sum(x => x.Difference).ToString("N2")</td>
+                                            <td>@Model.ReportData.Where(x => x.ManagementNumber == management).Sum(x => x.Count)</td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+            }
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header bg-warning">
+                            <h5 class="mb-0">Топ-5 материалов с наибольшим перерасходом</h5>
+                        </div>
+                        <div class="card-body">
+                            <ol>
+                            @foreach (var item in Model.ReportData
+                               .GroupBy(x => x.MaterialName)
+                               .Select(g => new
+                               {
+                                   Name = g.Key,
+                                   Diff = g.Sum(x => x.Difference)
+                               })
+                               .OrderByDescending(x => x.Diff)
+                               .Take(5))
+                            {
+                                        <li>@item.Name (@item.Diff.ToString("N2"))</li>
+                            }
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header bg-info text-white">
+                            <h5 class="mb-0">Статистика по участкам</h5>
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>Участок</th>
+                                        <th>Перерасход</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                @foreach (var item in Model.ReportData
+                                   .GroupBy(x => x.SectionName)
+                                   .Select(g => new
+                                   {
+                                       Name = g.Key,
+                                       Diff = g.Sum(x => x.Difference)
+                                   })
+                                   .OrderByDescending(x => x.Diff)
+                                   .Take(5))
+                                {
+                                            <tr>
+                                                <td>@item.Name</td>
+                                                <td class="@(item.Diff > 0 ? "text-danger font-weight-bold" : "")">@item.Diff.ToString("N2")</td>
+                                            </tr>
+                                }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    }
+    else if (Model.ReportData != null)
+    {
+            <div class="alert alert-success">Перерасхода материалов по организации не обнаружено</div>
+    }
+</div>
+
+@section Scripts {
+        <script>
+            $(document).ready(function(){
+                $('#materialTabs a').on('click', function (e) {
+                    e.preventDefault();
+                    $(this).tab('show');
+                });
+            });
+        </script>
+}

@@ -1,0 +1,63 @@
+﻿@page
+@model ConstructionOrganisation.Pages.Reports.sp_get_object_schedules_management
+@{
+    ViewData["Title"] = "Объекты и графики работ строительного управления";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+
+    <form method="get" class="mb-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="managementNumber">Номер управления:</label>
+                    <input type="number" class="form-control" id="managementNumber" 
+                           name="managementNumber" value="@Model.ManagementNumber" />
+                </div>
+            </div>
+            <div class="col-md-4 align-self-end">
+                <button type="submit" class="btn btn-primary">Показать</button>
+            </div>
+        </div>
+    </form>
+
+    @if (Model.ReportData != null && Model.ReportData.Any())
+    {
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Номер управления</th>
+                            <th>Участок</th>
+                            <th>Код объекта</th>
+                            <th>Название объекта</th>
+                            <th>Номер работы</th>
+                            <th>Тип работы</th>
+                            <th>Дата начала (план)</th>
+                            <th>Дата окончания (план)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var item in Model.ReportData)
+                    {
+                                <tr>
+                                    <td>@item.ManagementNumber</td>
+                                    <td>@item.SectionName</td>
+                                    <td>@item.ObjectNameID</td>
+                                    <td>@item.ObjectName</td>
+                                    <td>@item.WorkNumber</td>
+                                    <td>@item.WorkTypeName</td>
+                                    <td>@item.PlannedStartDate.ToString("dd.MM.yyyy")</td>
+                                    <td>@item.PlannedEndDate.ToString("dd.MM.yyyy")</td>
+                                </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+    }
+    else if (Model.ReportData != null)
+    {
+            <div class="alert alert-warning">Данные не найдены</div>
+    }
+</div>

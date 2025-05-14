@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Данил\\Desktop\\ВУЗ\\БД\\приложение\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
       "Id": "C:\\Users\\Данил\\Desktop\\ВУЗ\\БД\\приложение\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

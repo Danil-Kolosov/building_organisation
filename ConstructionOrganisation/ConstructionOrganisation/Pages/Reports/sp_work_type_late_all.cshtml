@@ -1,0 +1,100 @@
+﻿@page
+@model ConstructionOrganisation.Pages.Reports.sp_work_type_late_all
+@{
+    ViewData["Title"] = "Анализ просрочек по всей организации";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+
+    @if (Model.ReportData != null && Model.ReportData.Any())
+    {
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID вида работ</th>
+                            <th>Вид работ</th>
+                            <th>Управление</th>
+                            <th>Участок</th>
+                            <th>Кол-во просрочек</th>
+                            <th>Средняя просрочка (дней)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var item in Model.ReportData)
+                    {
+                                <tr>
+                                    <td>@item.WorkTypeID</td>
+                                    <td>@item.WorkTypeName</td>
+                                    <td>@item.ManagementNumber</td>
+                                    <td>@item.SectionName</td>
+                                    <td>@item.LateCount</td>
+                                    <td>@item.AvgDelayDays.ToString("N1")</td>
+                                </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Общая статистика</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Топ-3 проблемных вида работ</h6>
+                                            <ol class="pl-3">
+                                            @foreach (var item in Model.ReportData
+                                               .GroupBy(x => x.WorkTypeName)
+                                               .Select(g => new
+                                               {
+                                                   Name = g.Key,
+                                                   Count = g.Sum(x => x.LateCount)
+                                               })
+                                               .OrderByDescending(x => x.Count)
+                                               .Take(3))
+                                            {
+                                                        <li>@item.Name (@item.Count просрочек)</li>
+                                            }
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Топ-3 проблемных участка</h6>
+                                            <ol class="pl-3">
+                                            @foreach (var item in Model.ReportData
+                                               .GroupBy(x => x.SectionName)
+                                               .Select(g => new
+                                               {
+                                                   Name = g.Key,
+                                                   Count = g.Sum(x => x.LateCount)
+                                               })
+                                               .OrderByDescending(x => x.Count)
+                                               .Take(3))
+                                            {
+                                                        <li>@item.Name (@item.Count просрочек)</li>
+                                            }
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    }
+    else if (Model.ReportData != null)
+    {
+            <div class="alert alert-success">Просрочек в организации не обнаружено</div>
+    }
+</div>

@@ -8,16 +8,70 @@
 
 <div class="list-group">
     <a asp-page="./sp_get_managements_with_boss" class="list-group-item list-group-item-action">
-        1. Управления с руководителями
+        1.1 Управления с руководителями
     </a>
     <a asp-page="./sp_get_sections_with_boss" class="list-group-item list-group-item-action">
-        2. Участки с руководителями
+        1.2 Участки с руководителями
     </a>
     <a asp-page="./EngineeringEmployees" class="list-group-item list-group-item-action">
-        3. Инженерный состав управления
+        2.1 Инженерный состав управления
     </a>
     <a asp-page="./sp_get_engineering_employee_section" class="list-group-item list-group-item-action">
-        4. Инженерный состав участка
+        2.2 Инженерный состав участка
     </a>
-    <!-- Добавьте остальные 12 отчетов -->
+    <a asp-page="./sp_get_objects_schedules_by_section" class="list-group-item list-group-item-action">
+        3.1 Графики объектов на участке
+    </a>
+    <a asp-page="./sp_get_object_schedules_management" class="list-group-item list-group-item-action">
+        3.2 Графики объектов по управлению
+    </a>
+    <a asp-page="./sp_get_object_brigade_members" class="list-group-item list-group-item-action">
+        4. Состав бригад работающих на строительстве указанного объекта
+    </a>
+    <a asp-page="./sp_get_management_machines" class="list-group-item list-group-item-action">
+        5. Строительная техника приданная указанному управлению
+    </a>
+    <a asp-page="./sp_get_machine_by_object" class="list-group-item list-group-item-action">
+        6.1 Строительная техника выделенная на указанный объект
+    </a>
+    <a asp-page="./sp_get_machine_by_object_by_date" class="list-group-item list-group-item-action">
+        6.2 Техника работавшая на объекте в определенный промежуток времени
+    </a>
+    <a asp-page="./sp_get_objects_schedule_estimate_aggregated" class="list-group-item list-group-item-action">
+        7. График и смета на строительство указанного объекта
+    </a>
+    <a asp-page="./sp_get_object_report" class="list-group-item list-group-item-action">
+        8. Отчет о сооружении указанного объекта
+    </a>
+    <a asp-page="./sp_get_objects_with_works_on_date" class="list-group-item list-group-item-action">
+        9.1 Объекты в организации, на которых в обозначенный период времени выполнялся указанный вид строительных работ
+    </a>
+    <a asp-page="./sp_get_objects_with_works_on_date_in_management" class="list-group-item list-group-item-action">
+        9.2 Объекты в управлении, на которых в обозначенный период времени выполнялся указанный вид строительных работ
+    </a>
+    <a asp-page="./sp_work_type_late_section" class="list-group-item list-group-item-action">
+        10.1 Виды работ с превышенным сроком выполнения на участке
+    </a>
+    <a asp-page="./sp_work_type_late_management" class="list-group-item list-group-item-action">
+        10.2 Виды работ с превышенным сроком выполнения в управлении
+    </a>
+    <a asp-page="./sp_work_type_late_all" class="list-group-item list-group-item-action">
+        10.3 Виды работ с превышенным сроком выполнения по организации
+    </a>
+    <a asp-page="./sp_material_late_section" class="list-group-item list-group-item-action">
+        11.1 Материалы с превышением расхода по смете на участке
+    </a>
+    <a asp-page="./sp_material_late_management" class="list-group-item list-group-item-action">
+        11.2 Материалы с превышением расхода по смете в управлении
+    </a>
+    <a asp-page="./sp_material_late_all" class="list-group-item list-group-item-action">
+        11.3 Материалы с превышением расхода по смете по организации
+    </a>
+    <a asp-page="./sp_work_type_by_brigade_on_date_and_objects" class="list-group-item list-group-item-action">
+        12. Виды работ выполняемых бригадой в промежуток времени с объектами
+    </a>
+    <a asp-page="./sp_brigade_on_work_type_with_date_and_objects" class="list-group-item list-group-item-action">
+        13. Бригады выполнявшие опроеделенные виды работ в течении периода с объектами
+    </a>
+    <!-- Добавить остальные 12 отчетов -->
 </div>

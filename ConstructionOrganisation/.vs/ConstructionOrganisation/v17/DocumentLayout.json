@@ -3,20 +3,108 @@
   "WorkspaceRootPath": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_material_late_section.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_material_late_section.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_engineering_employee_section.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_engineering_employee_section.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\data\\tables.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\data\\tables.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_engineering_employee_section.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_engineering_employee_section.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\data\\edittable.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\data\\edittable.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\data\\edittable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\data\\edittable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_sections_with_boss.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_sections_with_boss.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\engineeringemployees.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\engineeringemployees.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_brigade_on_work_type_with_date_and_objects.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_brigade_on_work_type_with_date_and_objects.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_brigade_on_work_type_with_date_and_objects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_brigade_on_work_type_with_date_and_objects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_work_type_by_brigade_on_date_and_objects.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_work_type_by_brigade_on_date_and_objects.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_work_type_by_brigade_on_date_and_objects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_work_type_by_brigade_on_date_and_objects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_material_late_all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_material_late_all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_material_late_all.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_material_late_all.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_material_late_management.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_material_late_management.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_material_late_management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_material_late_management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_material_late_section.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_material_late_section.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_machine_by_object.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_machine_by_object.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_objects_with_works_on_date.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_objects_with_works_on_date.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_objects_with_works_on_date_in_management.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_objects_with_works_on_date_in_management.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_objects_schedules_by_section.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_objects_schedules_by_section.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_work_type_late_management.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_work_type_late_management.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_work_type_late_all.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_work_type_late_all.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_objects_schedules_by_section.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_objects_schedules_by_section.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_managements_with_boss.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,24 +115,96 @@
       "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_managements_with_boss.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_objects_with_works_on_date.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_objects_with_works_on_date.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_work_type_late_section.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_work_type_late_section.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_work_type_late_all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_work_type_late_all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_management_machines.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_management_machines.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_machine_by_object_by_date.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_machine_by_object_by_date.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_machine_by_object.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_machine_by_object.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_objects_schedule_estimate_aggregated.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_objects_schedule_estimate_aggregated.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_objects_schedule_estimate_aggregated.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_objects_schedule_estimate_aggregated.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\data\\edittable.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\data\\edittable.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_object_report.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_object_report.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_work_type_late_management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_work_type_late_management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_work_type_late_section.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_work_type_late_section.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_objects_with_works_on_date_in_management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_objects_with_works_on_date_in_management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_object_report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_object_report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_machine_by_object_by_date.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_machine_by_object_by_date.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_management_machines.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_management_machines.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_object_brigade_members.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_object_brigade_members.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_object_brigade_members.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_object_brigade_members.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_object_schedules_management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_object_schedules_management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_object_schedules_management.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_object_schedules_management.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_engineering_employee_section.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_engineering_employee_section.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_engineering_employee_section.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_engineering_employee_section.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\data\\mysqlauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\data\\mysqlauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,24 +219,12 @@
       "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_sections_with_boss.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\data\\edittable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\data\\edittable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\engineeringemployees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\engineeringemployees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\reports\\sp_get_sections_with_boss.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\reports\\sp_get_sections_with_boss.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\data\\tables.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\data\\tables.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\data\\tables.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -155,10 +303,6 @@
       "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\desktop\\\u0432\u0443\u0437\\\u0431\u0434\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\constructionorganisation\\constructionorganisation\\models\\sectionemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C897B032-A678-4CD0-B797-1314BFECDA11}|ConstructionOrganisation\\ConstructionOrganisation.csproj|solutionrelative:constructionorganisation\\models\\sectionemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -202,7 +346,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 25,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -210,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 73,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Index.cshtml",
@@ -223,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 55,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\appsettings.json",
               "RelativeDocumentMoniker": "ConstructionOrganisation\\appsettings.json",
@@ -232,12 +376,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-09T14:30:20.07Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 54,
               "Title": "EngineeringEmployees.cshtml",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\EngineeringEmployees.cshtml",
               "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\EngineeringEmployees.cshtml",
@@ -246,48 +389,20 @@
               "ViewState": "AgIAABoAAAAAAAAAAAAwwC0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-09T16:00:29.835Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Program.cs",
               "RelativeDocumentMoniker": "ConstructionOrganisation\\Program.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Program.cs",
               "RelativeToolTip": "ConstructionOrganisation\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T14:43:22.622Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "sp_get_engineering_employee_section.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAywC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T20:16:06.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "sp_get_engineering_employee_section.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwDYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T20:15:54.206Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -303,393 +418,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "sp_get_managements_with_boss.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:07:22.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EditTable.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml.cs",
-              "ViewState": "AgIAAEkCAAAAAAAAAAApwFcCAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T14:26:01.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "sp_get_managements_with_boss.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAwwDYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T14:07:08.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "sp_get_sections_with_boss.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAArwCAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T13:41:13.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "sp_get_sections_with_boss.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T13:40:56.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Group.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\Group.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Models\\Group.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\Group.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Models\\Group.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:19:39.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Brigade.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\Brigade.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Models\\Brigade.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\Brigade.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Models\\Brigade.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:19:37.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAPsCAAAAAAAAAAAiwAoDAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:19:34.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20250510181357_InitialCreate.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Data\\Migrations\\20250510181357_InitialCreate.Designer.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Data\\Migrations\\20250510181357_InitialCreate.Designer.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Data\\Migrations\\20250510181357_InitialCreate.Designer.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Data\\Migrations\\20250510181357_InitialCreate.Designer.cs",
-              "ViewState": "AgIAACQEAAAAAAAAAAAiwDMEAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:19:31.546Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Tables.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\Tables.cshtml.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Data\\Tables.cshtml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\Tables.cshtml.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Data\\Tables.cshtml.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAACcAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:43:57.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Tables.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\Tables.cshtml",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Data\\Tables.cshtml",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\Tables.cshtml",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Data\\Tables.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T15:43:37.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AdminCheckerService.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Services\\AdminCheckerService.cshtml.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Services\\AdminCheckerService.cshtml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Services\\AdminCheckerService.cshtml.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Services\\AdminCheckerService.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:23:24.146Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AdminCheckerService.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Services\\AdminCheckerService.cshtml",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Services\\AdminCheckerService.cshtml",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Services\\AdminCheckerService.cshtml",
-              "RelativeToolTip": "ConstructionOrganisation\\Services\\AdminCheckerService.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T15:23:13.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EditTable.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwPQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T14:25:36.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\Index.cshtml.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T14:21:57.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\Index.cshtml",
               "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\Index.cshtml",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\Index.cshtml",
               "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAD8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T14:21:42.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T14:21:42.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Requests.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\User\\Requests.cshtml.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\User\\Requests.cshtml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\User\\Requests.cshtml.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\User\\Requests.cshtml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAtwCMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T14:08:51.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Requests.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\User\\Requests.cshtml",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\User\\Requests.cshtml",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\User\\Requests.cshtml",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\User\\Requests.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAkwCgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "sp_material_late_section.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_material_late_section.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_material_late_section.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_material_late_section.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_material_late_section.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAkwEMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T14:06:30.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T19:05:20.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "ConstructionOrganisation\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-11T18:22:45.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "SectionEmployee.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\SectionEmployee.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Models\\SectionEmployee.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\SectionEmployee.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Models\\SectionEmployee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T17:51:44.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MySQLAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Data\\MySQLAuthService.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Data\\MySQLAuthService.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Data\\MySQLAuthService.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Data\\MySQLAuthService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBoAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:58:57.479Z",
+              "WhenOpened": "2025-05-14T10:45:37.002Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Account\\Logout.cshtml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Account\\Logout.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T10:47:55.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAApwCoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T15:03:08.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ConstructionOrganisation.csproj",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\ConstructionOrganisation.csproj",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\ConstructionOrganisation.csproj",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\ConstructionOrganisation.csproj",
-              "RelativeToolTip": "ConstructionOrganisation\\ConstructionOrganisation.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-11T11:51:50.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
+              "DocumentIndex": 2,
+              "Title": "Tables.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\Tables.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Data\\Tables.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\Tables.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Data\\Tables.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-11T11:01:09.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-11T10:47:09.735Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ConstructionOrganisation\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-09T15:01:28.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AuthorizeRoleAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Atributes\\AuthorizeRoleAttribute.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Atributes\\AuthorizeRoleAttribute.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Atributes\\AuthorizeRoleAttribute.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Atributes\\AuthorizeRoleAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T15:49:29.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T15:43:57.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Admin.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Home\\Admin.cshtml",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Home\\Admin.cshtml",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Home\\Admin.cshtml",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Home\\Admin.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAkwIYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T15:52:43.42Z"
+              "WhenOpened": "2025-05-09T15:28:39.689Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\User.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\User.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABLAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "EditTable.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:56:15.447Z"
+              "WhenOpened": "2025-05-12T14:26:01.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 5,
+              "Title": "EditTable.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Data\\EditTable.cshtml",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAtwJEAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T14:25:36.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\_ViewImports.cshtml",
@@ -701,7 +503,787 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "sp_get_sections_with_boss.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAArwBoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:41:13.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EngineeringEmployees.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\EngineeringEmployees.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\EngineeringEmployees.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\EngineeringEmployees.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\EngineeringEmployees.cshtml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwDwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T17:02:02.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "sp_brigade_on_work_type_with_date_and_objects.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_brigade_on_work_type_with_date_and_objects.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_brigade_on_work_type_with_date_and_objects.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_brigade_on_work_type_with_date_and_objects.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_brigade_on_work_type_with_date_and_objects.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:54:13.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "sp_brigade_on_work_type_with_date_and_objects.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_brigade_on_work_type_with_date_and_objects.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_brigade_on_work_type_with_date_and_objects.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_brigade_on_work_type_with_date_and_objects.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_brigade_on_work_type_with_date_and_objects.cshtml",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAowMEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T12:53:51.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "sp_work_type_by_brigade_on_date_and_objects.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_by_brigade_on_date_and_objects.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_by_brigade_on_date_and_objects.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_by_brigade_on_date_and_objects.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_by_brigade_on_date_and_objects.cshtml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T11:45:53.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "sp_work_type_by_brigade_on_date_and_objects.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_by_brigade_on_date_and_objects.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_by_brigade_on_date_and_objects.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_by_brigade_on_date_and_objects.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_by_brigade_on_date_and_objects.cshtml",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAowKQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T11:45:27.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "sp_material_late_all.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_material_late_all.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_material_late_all.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_material_late_all.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_material_late_all.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAkwI0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T11:31:25.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "sp_material_late_all.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_material_late_all.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_material_late_all.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_material_late_all.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_material_late_all.cshtml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T11:31:46.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "sp_material_late_management.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_material_late_management.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_material_late_management.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_material_late_management.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_material_late_management.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T11:26:08.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "sp_material_late_management.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_material_late_management.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_material_late_management.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_material_late_management.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_material_late_management.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAkwGkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T11:25:47.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "sp_material_late_section.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_material_late_section.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_material_late_section.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_material_late_section.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_material_late_section.cshtml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:46:00.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "sp_get_machine_by_object.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object.cshtml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:09:43.808Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "sp_get_objects_with_works_on_date.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date.cshtml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAADgvyoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:13:44.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "sp_get_objects_with_works_on_date_in_management.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date_in_management.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date_in_management.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date_in_management.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date_in_management.cshtml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAwDkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:14:35.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "sp_get_objects_schedules_by_section.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedules_by_section.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedules_by_section.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedules_by_section.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedules_by_section.cshtml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAApwCEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:07:12.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "sp_work_type_late_management.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_management.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_management.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_management.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_management.cshtml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:27:55.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "sp_work_type_late_all.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_all.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_all.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_all.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_all.cshtml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwCwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:29:33.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "sp_get_objects_schedules_by_section.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedules_by_section.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedules_by_section.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedules_by_section.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedules_by_section.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwCwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T10:05:02.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "sp_get_managements_with_boss.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wCoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:07:22.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "sp_get_managements_with_boss.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_managements_with_boss.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwCQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T14:07:08.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "sp_get_objects_with_works_on_date.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAuwFIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T10:13:28.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "sp_work_type_late_section.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_section.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_section.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_section.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_section.cshtml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwDEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:15:34.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "sp_work_type_late_all.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_all.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_all.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_all.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_all.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAQwGMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T10:29:17.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "sp_get_management_machines.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_management_machines.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_management_machines.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_management_machines.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_management_machines.cshtml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwCwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:08:56.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "sp_get_machine_by_object_by_date.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object_by_date.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object_by_date.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object_by_date.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object_by_date.cshtml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:10:35.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "sp_get_machine_by_object.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowDoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T10:09:27.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "sp_get_objects_schedule_estimate_aggregated.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedule_estimate_aggregated.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedule_estimate_aggregated.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedule_estimate_aggregated.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedule_estimate_aggregated.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwEMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T10:11:09.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "sp_get_objects_schedule_estimate_aggregated.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedule_estimate_aggregated.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedule_estimate_aggregated.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedule_estimate_aggregated.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_schedule_estimate_aggregated.cshtml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:11:24.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "sp_work_type_late_management.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_management.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_management.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_management.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_management.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwFIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T10:27:31.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "sp_work_type_late_section.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_section.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_section.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_section.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_work_type_late_section.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwEEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T10:15:12.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "sp_get_objects_with_works_on_date_in_management.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date_in_management.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date_in_management.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date_in_management.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_objects_with_works_on_date_in_management.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAwFkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T10:14:18.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "sp_get_object_report.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_object_report.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_object_report.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_object_report.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_object_report.cshtml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwDIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:12:54.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "sp_get_object_report.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_object_report.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_object_report.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_object_report.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_object_report.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAuwF8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T10:12:37.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "sp_get_machine_by_object_by_date.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object_by_date.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object_by_date.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object_by_date.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_machine_by_object_by_date.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwEgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T10:10:19.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "sp_get_management_machines.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_management_machines.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_management_machines.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_management_machines.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_management_machines.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwDIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T10:08:38.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "sp_get_object_brigade_members.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_object_brigade_members.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_object_brigade_members.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_object_brigade_members.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_object_brigade_members.cshtml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA2wDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:08:00.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "sp_get_object_brigade_members.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_object_brigade_members.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_object_brigade_members.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_object_brigade_members.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_object_brigade_members.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwDgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T10:07:43.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "sp_get_object_schedules_management.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_object_schedules_management.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_object_schedules_management.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_object_schedules_management.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_object_schedules_management.cshtml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:04:17.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "sp_get_object_schedules_management.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_object_schedules_management.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_object_schedules_management.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_object_schedules_management.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_object_schedules_management.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAUwD4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T10:03:34.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "sp_get_engineering_employee_section.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAywC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T20:16:06.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "sp_get_engineering_employee_section.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_engineering_employee_section.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwDYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T20:15:54.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "sp_get_sections_with_boss.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\sp_get_sections_with_boss.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T13:40:56.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Models\\Group.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\Group.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Models\\Group.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:19:39.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Brigade.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\Brigade.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Models\\Brigade.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\Brigade.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Models\\Brigade.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:19:37.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAPsCAAAAAAAAAAAiwAoDAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:19:34.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20250510181357_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Data\\Migrations\\20250510181357_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Data\\Migrations\\20250510181357_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Data\\Migrations\\20250510181357_InitialCreate.Designer.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Data\\Migrations\\20250510181357_InitialCreate.Designer.cs",
+              "ViewState": "AgIAACQEAAAAAAAAAAAiwDMEAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:19:31.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Tables.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\Tables.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Data\\Tables.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Data\\Tables.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Data\\Tables.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T15:43:37.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "AdminCheckerService.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Services\\AdminCheckerService.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Services\\AdminCheckerService.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Services\\AdminCheckerService.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Services\\AdminCheckerService.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:23:24.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "AdminCheckerService.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Services\\AdminCheckerService.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Services\\AdminCheckerService.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Services\\AdminCheckerService.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Services\\AdminCheckerService.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T15:23:13.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\Index.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:21:57.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Requests.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\User\\Requests.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\User\\Requests.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\User\\Requests.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\User\\Requests.cshtml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAtwCMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:08:51.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Requests.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\User\\Requests.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\User\\Requests.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\User\\Requests.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\User\\Requests.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T14:06:30.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T19:05:20.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ConstructionOrganisation\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-11T18:22:45.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "SectionEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\SectionEmployee.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Models\\SectionEmployee.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\SectionEmployee.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Models\\SectionEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:51:44.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "MySQLAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Data\\MySQLAuthService.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Data\\MySQLAuthService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Data\\MySQLAuthService.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Data\\MySQLAuthService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:58:57.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T10:47:55.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:03:08.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ConstructionOrganisation.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\ConstructionOrganisation.csproj",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\ConstructionOrganisation.csproj",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\ConstructionOrganisation.csproj",
+              "RelativeToolTip": "ConstructionOrganisation\\ConstructionOrganisation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-11T11:51:50.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T11:01:09.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Account\\Logout\u0424\u0418\u0413\u041D\u042F\u0422\u041E\u0416\u0415.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T10:47:09.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ConstructionOrganisation\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-09T15:01:28.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "AuthorizeRoleAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Atributes\\AuthorizeRoleAttribute.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Atributes\\AuthorizeRoleAttribute.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Atributes\\AuthorizeRoleAttribute.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Atributes\\AuthorizeRoleAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:49:29.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Home\\Admin.cshtml",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Home\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Home\\Admin.cshtml",
+              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Home\\Admin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T15:52:43.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ConstructionOrganisation\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\User.cs",
+              "RelativeToolTip": "ConstructionOrganisation\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:56:15.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Account\\Login.cshtml",
@@ -713,7 +1295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 72,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Shared\\_LoginPartial.cshtml",
@@ -725,20 +1307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EngineeringEmployees.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\EngineeringEmployees.cshtml.cs",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Reports\\EngineeringEmployees.cshtml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Reports\\EngineeringEmployees.cshtml.cs",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Reports\\EngineeringEmployees.cshtml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwDwAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T17:02:02.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 79,
               "Title": "Login.cshtm\u0424\u0418\u0413\u041D\u042Fl.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Account\\Login.cshtm\u0424\u0418\u0413\u041D\u042Fl.cs",
               "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Account\\Login.cshtm\u0424\u0418\u0413\u041D\u042Fl.cs",
@@ -750,7 +1319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 70,
               "Title": "\u0441\u0442\u0430\u0440\u044B\u0439Layaut.txt",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\\u0441\u0442\u0430\u0440\u044B\u0439Layaut.txt",
               "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\\u0441\u0442\u0430\u0440\u044B\u0439Layaut.txt",
@@ -762,20 +1331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ConstructionOrganisation\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ConstructionOrganisation\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADsAAAAAAAAAAAAnwEUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T15:28:39.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 83,
               "Title": "ConstructionOrganisation",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\ConstructionOrganisation.csproj",
               "RelativeDocumentMoniker": "ConstructionOrganisation\\ConstructionOrganisation.csproj",
@@ -786,7 +1342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 82,
               "Title": "Management.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\Management.cs",
               "RelativeDocumentMoniker": "ConstructionOrganisation\\Models\\Management.cs",
@@ -798,7 +1354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 81,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "ConstructionOrganisation\\Models\\Employee.cs",
@@ -810,7 +1366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 59,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\\Desktop\\\u0412\u0423\u0417\\\u0411\u0414\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\building_organisation\\ConstructionOrganisation\\ConstructionOrganisation\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ConstructionOrganisation\\Data\\ApplicationDbContext.cs",

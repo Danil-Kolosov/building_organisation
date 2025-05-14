@@ -60,16 +60,88 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_brigade_on_work_type_with_date_and_objects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9icmlnYWRlX29uX3dvcmtfdHlwZV93aXRoX2RhdGVfYW5kX29iamVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_engineering_employee_section.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfZW5naW5lZXJpbmdfZW1wbG95ZWVfc2VjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_machine_by_object.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfbWFjaGluZV9ieV9vYmplY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_machine_by_object_by_date.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfbWFjaGluZV9ieV9vYmplY3RfYnlfZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_managements_with_boss.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfbWFuYWdlbWVudHNfd2l0aF9ib3NzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_management_machines.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfbWFuYWdlbWVudF9tYWNoaW5lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_objects_schedules_by_section.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfb2JqZWN0c19zY2hlZHVsZXNfYnlfc2VjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_objects_schedule_estimate_aggregated.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfb2JqZWN0c19zY2hlZHVsZV9lc3RpbWF0ZV9hZ2dyZWdhdGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_objects_with_works_on_date.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfb2JqZWN0c193aXRoX3dvcmtzX29uX2RhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_objects_with_works_on_date_in_management.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfb2JqZWN0c193aXRoX3dvcmtzX29uX2RhdGVfaW5fbWFuYWdlbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_object_brigade_members.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfb2JqZWN0X2JyaWdhZGVfbWVtYmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_object_report.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfb2JqZWN0X3JlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_object_schedules_management.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfb2JqZWN0X3NjaGVkdWxlc19tYW5hZ2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_get_sections_with_boss.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9nZXRfc2VjdGlvbnNfd2l0aF9ib3NzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_material_late_all.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9tYXRlcmlhbF9sYXRlX2FsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_material_late_management.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9tYXRlcmlhbF9sYXRlX21hbmFnZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_material_late_section.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF9tYXRlcmlhbF9sYXRlX3NlY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_work_type_by_brigade_on_date_and_objects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF93b3JrX3R5cGVfYnlfYnJpZ2FkZV9vbl9kYXRlX2FuZF9vYmplY3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_work_type_late_all.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF93b3JrX3R5cGVfbGF0ZV9hbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_work_type_late_management.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF93b3JrX3R5cGVfbGF0ZV9tYW5hZ2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Reports/sp_work_type_late_section.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xzcF93b3JrX3R5cGVfbGF0ZV9zZWN0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Данил/Desktop/ВУЗ/БД/приложение/building_organisation/ConstructionOrganisation/ConstructionOrganisation/Pages/Shared/_LoginPartial.cshtml]
